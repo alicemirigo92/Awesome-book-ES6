@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 610px;
+  height: min-content;
+}
+
+.book-list {
+  display: none;
+}
+
+#book-collection {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: x-large;
+  font-weight: 200;
+}
+
+#book-list {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid;
+}
+
+.book {
+  width: 30rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 3px;
+}
+
+.book:nth-child(even) {
+  background-color: lightgray;
+}
+
+#add-book-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.add-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#add-button {
+  margin-left: 8rem;
+  border: 1px solid;
+}
+
+#add-book-form label {
+  margin-right: 10px;
+  border: 1px solid;
+}
+
+#footer {
+  position: relative;
+  top: 44px;
+}
+
+h2 {
+  font-size: smaller;
+}
+
+#remove-button {
+  margin-left: 10rem;
+  margin-right: -0.2rem;
+  border: 1px solid;
+}
+
+h3 {
+  font-size: smaller;
+}
+
+h4 {
+  margin-top: 4rem;
+}
+
+.line {
+  height: 91px;
+  position: relative;
+  width: 2px;
+  top: -7.5rem;
+  rotate: 90deg;
+  left: 19rem;
+  background-color: #464242;
+}
+
+#header {
+  font-size: large;
+  margin-left: 1rem;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+#books-link {
+  border-right: 2px solid;
+  border-color: black;
+  padding-right: 10px;
+  color: black;
+}
+
+#add-book-link {
+  border-right: 2px solid;
+  border-color: blue;
+  padding-right: 10px;
+  color: blue;
+}
+
+#contact-info-link {
+  color: black;
+}
+
+.dugmici {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: -66px;
+  padding-right: 1rem;
+}
+
+#DateTime {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  font-size: small;
+}
+
+.pravougaonik {
+  border: 2px solid;
+  height: 51px;
+  margin: 7px;
+}
+
+.kockodugic {
+  border: 2px solid;
+  display: flex;
+  height: 2rem;
+  margin: 5px;
+  margin-top: 169px;
+  flex-direction: row;
+  align-items: center;
+}
+
+h5 {
+  margin-left: 6px;
+}

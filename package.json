@@ -1,0 +1,23 @@
+{
+  "name": "awesome-book-es6",
+  "version": "1.0.0",
+  "description": "<a name=\"Alice\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicemirigo92/Awesome-book-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicemirigo92/Awesome-book-ES6/issues"
+  },
+  "homepage": "https://github.com/alicemirigo92/Awesome-book-ES6#readme",
+  "dependencies": {
+    "luxon": "^3.2.1"
+  }
+}
