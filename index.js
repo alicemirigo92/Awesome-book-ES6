@@ -2,7 +2,6 @@ import Display from './modules/display.js';
 import Add from './modules/add.js';
 import { DateTime } from './modules/luxon.js';
 
-
 const addBookForm = document.getElementById('add-book-form');
 const date = document.getElementById('DateTime');
 setInterval(() => {
@@ -10,9 +9,7 @@ setInterval(() => {
 }, 1000);
 const display = new Display();
 
-
 document.addEventListener('DOMContentLoaded', display.displayBooks());
-
 
 addBookForm.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -22,7 +19,6 @@ addBookForm.addEventListener('submit', (e) => {
     const add = new Add(authorName, bookTitle);
     add.addNewBook();
   }
-
 
   addBookForm.reset();
   display.displayBooks();

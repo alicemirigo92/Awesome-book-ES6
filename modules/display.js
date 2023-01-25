@@ -1,11 +1,9 @@
 import Remove from './remove.js';
 
-
 export default class Display {
   constructor() {
     this.collection = JSON.parse(localStorage.getItem('bookCollection')) || [];
   }
-
 
   displayBooks() {
     const bookList = document.getElementById('book-list');

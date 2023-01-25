@@ -4,7 +4,6 @@ export default class Remove {
     this.collection = JSON.parse(localStorage.getItem('bookCollection'));
   }
 
-
   removeBook() {
     this.collection = this.collection.filter((book) => book.id !== this.id);
     localStorage.setItem('bookCollection', JSON.stringify(this.collection));
