@@ -115,7 +115,7 @@ Use JavaScript events.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://alicemirigo92.github.io/Awesome-book/)
+- [Live Demo Link](https://alicemirigo92.github.io/Awesome-book-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
