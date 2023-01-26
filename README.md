@@ -1,4 +1,4 @@
-# Awesome-book
+# Awesome-book ES6
 <a name="Alice"></a>
 
 <!--
@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books!] <a name="In this project we are able to create book list and manupulate them."></a>
+# 📖 [Awesome Books!] <a name="In this project we are able to create book list and manupulate them.I Used the ES6 syntax"></a>
 
 > In this project i created book list that i used javascript to manupulate it
 
